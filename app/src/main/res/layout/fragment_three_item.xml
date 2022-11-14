@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/fragThreeTvTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:text="예약자명 : "
+        app:layout_constraintStart_toEndOf="@+id/fragThreeIvPicture"
+        app:layout_constraintTop_toTopOf="@+id/fragThreeIvPicture" />
+
+    <TextView
+        android:id="@+id/fragThreeTvName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:text="TextView"
+        app:layout_constraintBottom_toBottomOf="@+id/fragThreeTvTitle"
+        app:layout_constraintStart_toEndOf="@+id/fragThreeTvTitle"
+        app:layout_constraintTop_toTopOf="@+id/fragThreeTvTitle" />
+
+    <ImageView
+        android:id="@+id/fragThreeIvPicture"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/fragThreeTvReservation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="TextView"
+        app:layout_constraintStart_toStartOf="@+id/fragThreeTvName"
+        app:layout_constraintTop_toBottomOf="@+id/fragThreeTvName" />
+</androidx.constraintlayout.widget.ConstraintLayout>
