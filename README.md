@@ -35,7 +35,4 @@ android studio
 4. 앱바를 이용한 Layout
 5. 데이터베이스를 사용하기 전 Intent 로그인 활용
 
-
-https://user-images.githubusercontent.com/115531865/201672652-dacec71f-12cf-491e-8425-0c1a3b14acc5.mp4
-
-
+https://user-images.githubusercontent.com/115531865/201674411-0e806c65-26f8-4358-a3bd-3b9f29c81e37.mp4
