@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="로그인"
+        android:icon="@drawable/me_24"
+        android:id="@+id/naviMenuMember"/>
+
+    <item android:title="예약확인"
+        android:icon="@drawable/saved_search_24"
+        android:id="@+id/naviMenuReservation"/>
+
+    <item android:title="프로모션"
+        android:icon="@drawable/bookmarks_24"
+        android:id="@+id/naviMenuPromotion"/>
+
+    <item android:title="고객센터"
+        android:icon="@drawable/account_24"
+        android:id="@+id/naviMenuCustomer"/>
+
+    <item android:title="이용약관"
+        android:icon="@drawable/comment_24"
+        android:id="@+id/naviMenuClause"/>
+
+</menu>
